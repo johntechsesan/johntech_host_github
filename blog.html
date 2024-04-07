@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unisex Saloon</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+<body>
+<section class="subs-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <LI><a href="about.html">ABOUT</a></LI>
+                <LI><a href="our services.html">OUR SERVICES</a></LI>
+                <LI><a href="blog.html">BLOG</a></LI>
+                <LI><a href="contact.html">CONTACT</a></LI>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Apply for apprenticeship!!!</h1>
+</section>
+
+<!---------------------blog page content------------------>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/about us3.jpg">
+            <h2>Your Certificate is Garanteed</h2>
+            <p>When applying for an apprenticeship, you can explain how the apprenticeship can help you work toward your career
+                 goals and what you've done to prepare yourself for the work
+            </p>
+            <br>
+            <p>One of the greatest benefits of an apprenticeship/traineeship is the opportunity to gain first-hand experience
+                 in your industry or desired line of work. While traditional degrees have a primary focus on theory and knowledge-based
+                  learning; apprenticeships help you learn through practice, equipping you with the specific, job-ready skillset you need to 
+                  find work in the field. 
+            </p>
+            <br>
+            <p>Finally, apprenticeships and traineeships provide you with the opportunity to earn money as you study. Not only are you
+                 developing valuable, hands-on experience in your industry you are getting paid for all your efforts, too.<br>
+                 you can Apply through our email:adubukayodedonaln@gmail.com, be specific in your application and go straight to the point...
+            </p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>HOME SERVICES PRICE LIST</h3>
+            <div>
+                <span>Hair-cut</span>
+                <span>#20,000</span>
+            </div>
+            <div>
+                <span>Pedicure</span>
+                <span>#15,000</span>
+            </div>
+            <div>
+                <span>Manicure</span>
+                <span>#10,000</span>
+            </div>
+            <div>
+                <span>Massage</span>
+                <span>#30,000</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!----------------------footer--------------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>KayDsilva unisex salon is one of the standard salon in IBADAN, EKITI, and LAGOS, and it's popularlly well-known in all the states mentioned.<br>
+        click any of the social media icons bellow to find out more info about us.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Website developed by igesu john...igesusesanjohn@gmail.com:+2347033731473<i class="fa fa-heart-o"></i>you</p>
+    <p>&copy;copyright 2023</p>
+</section>
+
+
+<!---------------------java script toggle------------------------------>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }    
+    function hideMenu(){
+    navlinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unisex Saloon</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+<body>
+<section class="subt-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <LI><a href="about.html">ABOUT</a></LI>
+                <LI><a href="our services.html">OUR SERVICES</a></LI>
+                <LI><a href="blog.html">BLOG</a></LI>
+                <LI><a href="contact.html">CONTACT</a></LI>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!---------------------about us content------------------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Adubu Kayode Donald A.K.A(KayDsilva)</h1>
+            <p>"Our passion is helping clients find their personal style and perfectly tailoring our standard of service to their needs and vision.
+                 From our professionally-trained processs to our reliable client care, we're here to make all of our clients feel and look their best."<br>
+                 KayDsilva Unisex Salon. 
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/C.E.O.jpg">
+        </div>
+    </div>
+</section>
+
+<!----------------------footer--------------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>KayDsilva unisex salon is one of the standard salon in IBADAN, EKITI, and LAGOS, and it's popularlly well-known at its area based.<br>
+        click any of the social media icons bellow to find out more info about us.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Website developed by igesu john...igesusesanjohn@gmail.com:+2347033731473<i class="fa fa-heart-o"></i>you</p>
+    <p>&copy;copyright 2023</p>
+</section>
+
+
+<!---------------------java script toggle------------------------------>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }    
+    function hideMenu(){
+    navlinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

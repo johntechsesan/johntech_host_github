@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unisex Saloon</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+<body>
+<section class="subo-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <LI><a href="about.html">ABOUT</a></LI>
+                <LI><a href="our services.html">OUR SERVICES</a></LI>
+                <LI><a href="blog.html">BLOG</a></LI>
+                <LI><a href="contact.html">CONTACT</a></LI>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+</section>
+
+<!---------------------Our Services------------------>
+<section class="services">
+    <h1>Our Services</h1>
+    <p>We deals with all kinds of hair-cut and hair-style for both male and female and other 
+        services such as facial, manicure, pedicure and massage</p>
+    <div class="row">
+        <div class="services-col">
+            <h3>Facial</h3>
+            <p> your ever batteling with all kinds of face bums like, pimples, boil, etc.<br>
+                We assure u that once you get to our unisex-saloon, our machine is capable 
+                to see through the root of the causes and get rid of it.</p>
+
+        </div>
+        <div class="services-col">
+            <h3>manucure</h3>
+            <p>we also deal with nails fixing and nails painting, we have diffent
+                 varieties of nail shapes, only for you make your choice.</p>
+
+        </div>
+        <div class="services-col">
+            <h3>pedicure</h3>
+            <p>are you suffering from crack heels? we have anti-crack heel
+                 machine that cleans and moisturise your feet, it would look like babies foot.</p>
+
+        </div>
+    </div>
+</section>
+<!------------------------facilities----------------------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our equipments are working execellently </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/facial machine.jfif">
+            <h3>FACIAL MACHINE</h3>
+            <p>Facial machine with magnifier, it helps you relax, it also provide the feel-good factory to your skin.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/massaging machine.jfif">
+            <h3>MASSAGING MACHINE</h3>
+            <p>it increase blood flow and improve your body functions.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/pedicure machine.jpg">
+            <h3>PEDICURE MACHINE</h3>
+            <p>Recieving a regular pedicure decreases chances of infection.</p>
+        </div>
+    </div>
+</section>
+
+
+<!----------------------footer--------------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>KayDsilva unisex salon is one of the standard salon in IBADAN, EKITI, and LAGOS, and it's popularlly well-known at its area based.<br>
+        click any of the social media icons bellow to find out more info about us.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Website developed by igesu john...igesusesanjohn@gmail.com:+2347033731473<i class="fa fa-heart-o"></i>you.</p>
+    <p>&copy;copyright 2023</p>
+</section>
+
+
+<!---------------------java script toggle------------------------------>
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }    
+    function hideMenu(){
+    navlinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
